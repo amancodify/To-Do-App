@@ -1,0 +1,92 @@
+* {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.cont {
+    width: 450px;
+    height: 650px;
+    background: rgb(255, 248, 248);
+    margin: auto;
+    border: 1.2px solid rgb(202, 202, 202);
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: inherit;
+}
+
+#inputtext {
+    margin: 0px 5px 10px 5px;
+    width: 93%;
+    height: 25px;
+    padding: 5px;
+    color: rgb(36, 36, 36);
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.heading {
+    color: #f0eeee;
+    padding: 10px;
+    margin: 0;
+
+}
+
+.row {
+    /* background: url(images/bg.jpg); */
+    background: rgb(37, 36, 36);
+    text-align: center;
+    /* border:1px solid rgb(0, 0, 190); */
+}
+
+.bodypart{
+    padding-top: 20px;
+}
+
+li {
+    list-style: none;
+}
+
+.main{
+    transition: all 0.5s ease-in-out;
+}
+
+.item-list {
+    width: 90%;
+    padding: 10px;
+    margin: 10px auto;
+    background: rgb(34, 30, 30);
+    color: white;
+    border-radius:5px;
+}
+
+.btn{
+    float: right;
+    border: none;
+    background:transparent;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+
+.itemtext{
+    text-decoration: none;
+    color:white;
+}
+
+.checkbox{
+    width: 17px;
+    height:17px;
+    margin-right:12px;
+}
+
+.clearall{
+ float: right;
+ color: white;
+ background: transparent;
+ border: none;
+ cursor: pointer;
+ outline: none;
+}
+
+.taskdone{
+    text-decoration:line-through;
+}
